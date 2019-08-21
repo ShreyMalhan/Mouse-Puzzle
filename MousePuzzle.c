@@ -143,7 +143,7 @@ void loadMaze(){
         
     inputfile = freopen("put the path of the inputFile", "r");
     
-    //printing out an error message if the inputfile is not //invalid	    
+    //printing out an error message if the inputfile is not valid	    
 	if (inputfile == NULL){
         printf("Unable to open input file.\n");
         exit(0);
